@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شموخ المالكي | البورتفوليو الشخصي</title>
+  <meta name="description" content="الموقع الشخصي لشموخ خالد المالكي - طالبة علوم حاسب مهتمة بالبرمجة وتطوير الحلول التقنية.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="شموخ خالد المالكي | البورتفوليو الشخصي">
+  <meta property="og:description" content="طالبة علوم حاسب شغوفة بالبرمجة وتطوير المشاريع التقنية. استعرض مهاراتي وأعمالي.">
+  <meta property="og:url" content="https://CS-cs26.github.io/portfolio/">
+  <meta property="og:image" content="https://CS-cs26.github.io/portfolio/assets/preview.png">
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#hero" class="logo">شموخ المالكي</a>
+      <div class="nav-links">
+        <a href="#about">عني</a>
+        <a href="#skills">المهارات</a>
+        <a href="#projects">المشاريع</a>
+        <a href="#contact">التواصل</a>
+      </div>
+      <button id="theme-btn" type="button">الوضع الداكن 🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero reveal">
+      <p id="greeting" class="greeting">أهلاً بك في موقعي</p>
+      <h1>شموخ خالد المالكي</h1>
+      <h2>طالبة علوم حاسب مهتمة بالبرمجة وتطوير الحلول التقنية</h2>
+      <p class="hero-text">
+        شغوفة بالتقنية والبرمجة، أسعى دائماً لتعلم مهارات جديدة وتحويل الأفكار إلى مشاريع برمجية متكاملة واكتساب خبرات عملية في مختلف المجالات التقنية.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary">شاهد مشاريعي</a>
+        <a href="#contact" class="btn outline">تواصل معي</a>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <h2>عني</h2>
+      <div class="bento-grid">
+        <article class="bento-card bento-wide">
+          <h3>نبذة مختصرة</h3>
+          <p>
+            طالبة في كلية الحاسب، أستمتع ببناء المشاريع البرمجية وتطويرها من الصفر. أؤمن بأن التطبيق العملي هو أفضل طريق لاكتساب الخبرة، وأسعى لتطوير مهاراتي باستمرار في شتى مسارات التقنية.
+          </p>
+        </article>
+
+        <article class="bento-card">
+          <h3>الجامعة والتخصص</h3>
+          <p>بكالوريوس علوم الحاسب - جامعة أم القرى</p>
+        </article>
+
+        <article class="bento-card">
+          <h3>أتعلّم حالياً</h3>
+          <p>
+            أغوص في عالم البرمجة بلغة Java لأفهم كيف تُبنى الأنظمة القوية من الداخل، وبنفس الوقت أستكشف أساسيات الذكاء الاصطناعي وأجرب كيف يمكن تحويل الخوارزميات إلى حلول ذكية تخدم الواقع.
+          </p>
+        </article>
+
+        <article class="bento-card bento-wide">
+          <h3>اهتماماتي</h3>
+          <p>
+            أستمتع ببناء وتطوير المواقع الإلكترونية وتحويل الأفكار إلى تجارب تفاعلية حية، كما يشدّني كثيراً مجال تعلّم الآلة (Machine Learning)، وأسرار التشفير وحماية البيانات، وعالم الميكاترونكس (Mechatronics) حيث تلتقي البرمجة بالحركة والأنظمة الذكية.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <h2>المهارات</h2>
+      <div class="skills-box">
+        <span class="skill">Java</span>
+        <span class="skill">Python</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="projects-top">
+        <h2>المشاريع</h2>
+        <div class="filters">
+          <button class="filter-btn" type="button" data-category="all" aria-pressed="true">الكل</button>
+          <button class="filter-btn" type="button" data-category="health" aria-pressed="false">تطبيقات صحية</button>
+          <button class="filter-btn" type="button" data-category="smart" aria-pressed="false">أنظمة ذكية</button>
+        </div>
+      </div>
+      <div id="projects-grid" class="projects-grid"></div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="contact-box">
+        <h2>التواصل</h2>
+        <p>يسعدني تواصلكم للتعاون في المشاريع الطلابية، الهاكاثونات، أو تبادل الخبرات التقنية.</p>
+        <div class="contact-btns">
+          <a href="mailto:s448003213@uqu.edu.sa" class="btn primary">البريد الإلكتروني</a>
+          <button id="copy-btn" type="button" class="btn outline">نسخ البريد</button>
+          <a href="https://www.linkedin.com/in/شموخ-المالكي-46a915451" target="_blank" rel="noopener" class="btn outline">LinkedIn</a>
+          <a href="https://github.com/CS-cs26" target="_blank" rel="noopener" class="btn outline">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 شموخ خالد المالكي</p>
+    <a href="#hero">العودة للأعلى ↑</a>
+  </footer>
+
+  <template id="project-card-template">
+    <article class="project-card">
+      <img class="project-img" src="" alt="" width="800" height="450" loading="lazy">
+      <div class="project-body">
+        <h3 class="project-title"></h3>
+        <p class="project-desc"></p>
+        <div class="project-tags"></div>
+        <div class="project-links">
+          <a class="project-link demo-link" href="#" target="_blank" rel="noopener">معاينة المشروع</a>
+          <a class="project-link code-link" href="#" target="_blank" rel="noopener">الكود على GitHub</a>
+        </div>
+      </div>
+    </article>
+  </template>
+</body>
+</html>
