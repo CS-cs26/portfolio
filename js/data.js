@@ -1,29 +1,32 @@
 const projects = [
   {
+    id: 1,
     title: "نجدة (Najdah)",
-    description: "دليل رقمي تفاعلي لحالات الطوارئ الحرجة، يوفر خطوات إسعاف وتصرف سريعة ومبسطة مع اتصال مباشر بأرقام الطوارئ الرسمية بضغطة زر.",
-    category: "health",
-    tags: ["HTML5", "CSS3", "JavaScript"],
+    category: "web",
+    description: "منصة تفاعلية ذكية للإرشاد في حالات الطوارئ والإسعافات الأولية، تدعم التوجيه الصوتي خطوة بخطوة، المعالجة دون اتصال بالإنترنت، وتكييف التعليمات حسب الفئة العمرية.",
     image: "assets/najdah.png",
-    demo: "https://cs-cs26.github.io/najdah/",
-    code: "https://github.com/CS-cs26/najdah"
+    tags: ["HTML5", "CSS3", "JavaScript", "AI Offline", "Cloudflare"],
+    demo: "https://najdah.pages.dev/",
+    code: "https://github.com/CS-cs26"
   },
   {
+    id: 2,
     title: "القيادة الذكية (Smart Leadership)",
-    description: "بيئة رقمية ذكية لدعم قادة المدارس في اتخاذ القرارات الإدارية عبر تحليل متعدد المعايير يحاكي أنظمة الذكاء الاصطناعي، مع ضمان التوافق مع تعاميم وزارة التعليم.",
-    category: "smart",
-    tags: ["HTML5", "CSS3", "JavaScript"],
+    category: "ai",
+    description: "نظام ذكي لدعم اتخاذ القرار الإداري وتحليل مؤشرات الأداء في البيئة التعليمية، يوظف نماذج التحليل الذكي لتقديم رؤى دقيقة وتوصيات استراتيجية فورية.",
     image: "assets/school.png",
-    demo: "https://waleed-khalid-almalki.github.io/school/",
-    code: "https://github.com/waleed-khalid-almalki/school"
+    tags: ["Python", "AI", "Data Analysis", "Web"],
+    demo: "https://cs-cs26.github.io/portfolio/",
+    code: "https://github.com/CS-cs26"
   },
   {
+    id: 3,
     title: "الشبكة الحيوية (BioNet)",
+    category: "ai",
     description: "نموذج تفاعلي لدعم الأطباء والصيادلة في رصد تداخلات الأدوية المتعددة عبر رسم الشبكات الدوائية، محاكاة التوأم الحيوي للمريض، واقتراح البدائل مع دعم تصدير HL7 FHIR.",
-    category: "health",
-    tags: ["HTML5", "CSS3", "JavaScript", "HL7 FHIR"],
     image: "assets/bionet.png",
-    demo: "https://cs-cs26.github.io/BioNet/",
-    code: "https://github.com/CS-cs26/BioNet"
+    tags: ["Python", "FastAPI", "NetworkX", "Pydantic", "JavaScript", "Vis.js", "HTML5", "CSS3", "HL7 FHIR"],
+    demo: "https://cs-cs26.github.io/portfolio/",
+    code: "https://github.com/CS-cs26"
   }
 ];
