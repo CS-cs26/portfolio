@@ -1,32 +1,28 @@
 const projects = [
   {
-    id: 1,
     title: "نجدة (Najdah)",
-    category: "web",
-    description: "منصة تفاعلية ذكية للإرشاد في حالات الطوارئ والإسعافات الأولية، تدعم التوجيه الصوتي خطوة بخطوة، المعالجة دون اتصال بالإنترنت، وتكييف التعليمات حسب الفئة العمرية.",
+    description: "دليل رقمي تفاعلي لحالات الطوارئ الحرجة، يوفر خطوات إسعاف وتصرف سريعة ومبسطة مع اتصال مباشر بأرقام الطوارئ الرسمية بضغطة زر.",
+    category: "health",
+    tags: ["HTML5", "CSS3", "JavaScript"],
     image: "assets/najdah.png",
-    tags: ["HTML5", "CSS3", "JavaScript", "AI Offline", "Cloudflare"],
-    demo: "",
-    code: "https://github.com/CS-cs26"
+    demo: "https://cs-cs26.github.io/najdah/",
+    code: "https://github.com/CS-cs26/najdah"
   },
   {
-    id: 2,
     title: "القيادة الذكية (Smart Leadership)",
-    category: "ai",
-    description: "نظام ذكي لدعم اتخاذ القرار الإداري وتحليل مؤشرات الأداء في البيئة التعليمية، يوظف نماذج التحليل الذكي لتقديم رؤى دقيقة وتوصيات استراتيجية فورية.",
+    description: "بيئة رقمية ذكية لدعم قادة المدارس في اتخاذ القرارات الإدارية عبر تحليل متعدد المعايير يحاكي أنظمة الذكاء الاصطناعي، مع ضمان التوافق مع تعاميم وزارة التعليم.",
+    category: "smart",
+    tags: ["HTML5", "CSS3", "JavaScript"],
     image: "assets/school.png",
-    tags: ["Python", "AI", "Data Analysis", "Web"],
-    demo: "",
-    code: "https://github.com/CS-cs26"
+    demo: "https://waleed-khalid-almalki.github.io/school/",
+    code: "https://github.com/waleed-khalid-almalki/school"
   },
   {
-    id: 3,
     title: "الشبكة الحيوية (BioNet)",
-    category: "ai",
     description: "نموذج تفاعلي لدعم الأطباء والصيادلة في رصد تداخلات الأدوية المتعددة عبر رسم الشبكات الدوائية، محاكاة التوأم الحيوي للمريض، واقتراح البدائل مع دعم تصدير HL7 FHIR.",
-    image: "assets/bionet.png",
-    tags: ["Python", "FastAPI", "NetworkX", "Pydantic", "JavaScript", "Vis.js", "HTML5", "CSS3", "HL7 FHIR"],
-    demo: "",
-    code: "https://github.com/CS-cs26"
+    category: "health",
+    tags: ["Python", "FastAPI", "NetworkX", "JavaScript", "Vis.js", "HTML5", "CSS3", "HL7 FHIR"],    image: "assets/bionet.png",
+    demo: "https://cs-cs26.github.io/BioNet/",
+    code: "https://github.com/CS-cs26/BioNet"
   }
 ];
