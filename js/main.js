@@ -26,7 +26,13 @@ function renderProjects(list) {
       tagsBox.appendChild(span);
     });
 
-    clone.querySelector(".demo-link").href = project.demo;
+    const demoLink = clone.querySelector(".demo-link");
+    if (project.demo) {
+      demoLink.href = project.demo;
+    } else {
+      demoLink.remove();
+    }
+
     clone.querySelector(".code-link").href = project.code;
 
     projectsGrid.appendChild(clone);

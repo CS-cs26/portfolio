@@ -6,7 +6,7 @@ const projects = [
     description: "منصة تفاعلية ذكية للإرشاد في حالات الطوارئ والإسعافات الأولية، تدعم التوجيه الصوتي خطوة بخطوة، المعالجة دون اتصال بالإنترنت، وتكييف التعليمات حسب الفئة العمرية.",
     image: "assets/najdah.png",
     tags: ["HTML5", "CSS3", "JavaScript", "AI Offline", "Cloudflare"],
-    demo: "https://najdah.pages.dev/",
+    demo: "",
     code: "https://github.com/CS-cs26"
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     description: "نظام ذكي لدعم اتخاذ القرار الإداري وتحليل مؤشرات الأداء في البيئة التعليمية، يوظف نماذج التحليل الذكي لتقديم رؤى دقيقة وتوصيات استراتيجية فورية.",
     image: "assets/school.png",
     tags: ["Python", "AI", "Data Analysis", "Web"],
-    demo: "https://cs-cs26.github.io/portfolio/",
+    demo: "",
     code: "https://github.com/CS-cs26"
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     description: "نموذج تفاعلي لدعم الأطباء والصيادلة في رصد تداخلات الأدوية المتعددة عبر رسم الشبكات الدوائية، محاكاة التوأم الحيوي للمريض، واقتراح البدائل مع دعم تصدير HL7 FHIR.",
     image: "assets/bionet.png",
     tags: ["Python", "FastAPI", "NetworkX", "Pydantic", "JavaScript", "Vis.js", "HTML5", "CSS3", "HL7 FHIR"],
-    demo: "https://cs-cs26.github.io/portfolio/",
+    demo: "",
     code: "https://github.com/CS-cs26"
   }
 ];
